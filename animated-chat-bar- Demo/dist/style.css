@@ -1,26 +1,30 @@
 @import url(//fonts.googleapis.com/icon?family=Material+Icons);
 body, html {
-  height: 180%;
+  height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: fl; 
 }
 
 .chat-bar {
   background: #ea618d;
   box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.3);
-  border-radius: 36px;
+  border-radius: 36px 36px 0 0; /* Round only the top corners */
   padding: 1em;
   display: flex;
-  position: relative;
+  position: fixed; /* Fixed position to stay at the bottom */
+  bottom: 0;
+  left: 0;
+  width: 80%; /* Full width to touch both sides of the screen */
+  max-width: none; /* Disable max-width to ensure full stretch */
   overflow: hidden;
-  transform-origin: calc(0.5em + 18px) 50%;
+  transform-origin: calc(0.5em + 18px) 80%;
 }
 .chat-bar__toggle {
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
   display: flex;
   cursor: pointer;
   justify-content: center;
