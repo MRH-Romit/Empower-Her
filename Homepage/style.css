@@ -1,5 +1,5 @@
 body{
-    background-color: #f1f1f1;
+    background-color: #dccece;
   }
 .content{
     padding: 30px;
@@ -36,7 +36,7 @@ ul li{
 }
 .navbar {
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #dccece;
 }
 .navbar-nav {
     display: flex;
@@ -46,11 +46,11 @@ ul li{
     margin-right: 10px;
 }
 .navbar-search {
-    border: 2px solid #ccc;
+    border: 2px solid #f6dbba;
     padding: 1px 5px;
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .navbar-search input {
     border: none;
@@ -59,11 +59,11 @@ ul li{
 }
 .navbar-button {
     border-radius: 20px; 
-    background-color: #ffffff;
+    background-color: #ebecdf;
     color: #656565;
 }
 .add-question-button {
-    background-color: #ac0404; 
+    background-color: #0455ac; 
     color: #fff;
     border: none;
     border-radius: 20px;
